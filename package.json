@@ -1,12 +1,12 @@
 {
   "name": "Express",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/TheWizard0f0z/Express.git",
   "author": "Marcin Dzieszkowski <m.dzieszkowski@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "4.17.1",
-    "nodemon": "1.19.1"
+    "nodemon": "^2.0.2"
   }
 }
