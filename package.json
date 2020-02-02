@@ -1,10 +1,13 @@
 {
-  "name": "Express",
+  "name": "kodilla_express",
   "version": "1.0.0",
   "main": "server.js",
   "repository": "https://github.com/TheWizard0f0z/Express.git",
   "author": "Marcin Dzieszkowski <m.dzieszkowski@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "express": "4.17.1",
     "express-handlebars": "3.1.0",
