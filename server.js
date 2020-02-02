@@ -46,7 +46,7 @@ app.get('/history', (req, res) => {
 });
 
 app.use((req, res) => {
-  res.status(404).send('404 not found...');
+  res.status(404).render('404');
 });
 
 app.listen(8000, () => {
